@@ -1,0 +1,186 @@
+/* CSS Reset */
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+/* Style rules for body and HTML */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url("Images/parchment.jpg")
+}
+
+.content {
+  max-width:1920px;
+  margin: auto;
+}
+
+/* Style rules for headings */
+  
+h1, h3, h2 {
+  text-align:center;
+  font-family:Courier, Arial, sans-serif;
+}
+
+h1 {
+  background: url("Images/leather.jpg");
+  background-size:cover;
+  font-size:3em;
+  line-height:100px;
+  color:white;
+  border-bottom:5px solid gold;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+}
+
+h2 {
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:2.5em;
+}
+
+/* Style rules for faction section */
+
+.hpic {
+  max-width:40%;
+  max-height:40%;
+}
+
+/* Style rules for paragraphs */
+
+p {
+  font-family:Comfortaa, Verdana, sans-serif;
+  line-height:1.5;
+  text-align:center;
+  margin-left:5%;
+  margin-right:5%;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+/* Style rules for article */
+
+.wiki {
+  text-align:center;
+  background: url("Images/leather.jpg");
+  background-size:cover;
+  margin-left:0%;
+  margin-right:0%;
+  color:white;
+  border-top:5px solid gold;
+  border-top-right-radius:20px;
+  border-top-left-radius:20px;
+}
+
+/* Style rules for anchor elements */
+
+a {
+    text-decoration:none;
+    font-size:1.2em;
+    font-family: Courier, Verdana, Sans-serif
+}
+
+/* Style rules for iframe(s) */
+
+.responsive-iframe {
+  display:block;
+  margin:0 auto;
+  max-width:80%;
+  border:5px solid gold;
+  border-radius:10px;
+}
+
+/* Style rules for Grid */
+
+.grid-container {
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-template-rows:auto auto;
+  gap:10px;
+  padding:10px;
+  justify-items:center;
+}
+
+.horde {
+  font-size:2.5em;
+  font-family:Courier, Arial, sans-serif;
+  text-decoration:none;
+  grid-column:1;
+  background: -webkit-linear-gradient(red, black);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+}
+
+.alliance {
+  font-size:2.5em;
+  font-family:Courier, Arial, sans-serif;
+  text-decoration:none;
+  grid-column:2;
+  background: -webkit-linear-gradient(blue, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+}
+
+.hpic {
+  border-radius:10px;
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:2;
+  grid-row-end:3;
+  max-width:75%;
+  max-height:75%;
+  border:5px solid gold;
+}
+
+.apic {
+  border-radius:10px;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:3;
+  max-width:75%;
+  max-height:75%;
+  border:5px solid gold;
+}
+
+/* Style rules for mobile viewport */
+
+@media only screen and (max-width: 820px) {
+  
+.alliance, .horde {
+  font-size:2em;
+}
+
+.apic, .hpic {
+  max-width:85%;
+  max-height:85%;
+}
+
+h2 {
+  font-size:1.5em;
+}
+
+p {
+  font-size:1em;
+}
+
+h1 {
+  font-size:2em;
+}
+
+}
+
+/* Style rules for desktop viewport */
+
+@media only screen and (min-width: 2560px) {
+  .apic, .hpic {
+    max-width:60%;
+    max-height:60%;
+  }
+}

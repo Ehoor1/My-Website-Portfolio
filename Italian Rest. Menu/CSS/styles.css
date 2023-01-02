@@ -1,0 +1,165 @@
+/* General style rules */
+
+body {
+    background-color:rgb(230, 225, 200);
+}
+
+h1 {
+    position:relative;
+    text-align:center;
+    font-family:Josefin Sans, Arial, Serif;
+    font-size:3vw;
+    right:.7vw;
+}
+
+/* Style rules for banner */
+
+#banner {
+    position:absolute;
+    text-align:center;
+    width:100vw;
+    top:0;
+    left:0;
+    background-image: url("../Images/flag.jpg");
+    background-size:cover;
+}
+
+.phone {
+    position:relative;
+    font-size:1.5vw;
+    bottom:10px;
+    left:8.5vw;
+    font-family:Cinzel, Arial, Serif;
+    color:black;
+    font-weight:bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:7px;
+    background-color:aliceblue;
+}
+
+.op {
+    position:relative;
+    left:30vw;
+    top:4vw;
+    padding-right:.5vw;
+    padding-left:.5vw;
+    font-family:Cinzel, Arial, Serif;
+    font-size:2vw;
+    font-weight:bold;
+    color:black;
+    background-color:aliceblue;
+    border-radius:7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+.desc {
+    text-align:center;
+    position:absolute;
+    max-width:30%;
+    font-family:Cinzel, Arial, Serif;
+    font-size:1.2vw;
+    padding-left:1%;
+    bottom:1vh;
+    font-weight:bold;
+    color:white;
+}
+
+/* Style rules for Menu Section */
+
+section {
+    text-align:center;
+    position:absolute;
+}
+
+h3 {
+    font-size:1.1vw;
+}
+
+h2 {
+    font-family:Josefin Sans, Arial, Serif;
+    font-size:2vw;
+}
+
+.food {
+    font-size:1vw;
+}
+
+.menu {
+    position:relative;
+    top:10vw;
+    left:34.5vw;
+    font-size:3vw;
+}
+
+#appetizers {
+    position:relative;
+    text-align:center;
+    top:9vw;
+}
+
+#entrees {
+    position:relative;
+    text-align:center;
+    left:34.5vw;
+    bottom:18.5vw;
+}
+
+#deserts {
+    position:relative;
+    text-align:center;
+    left:68vw;
+    bottom:36.6vw;
+}
+
+@media screen and (max-width:820px) {
+
+.menu {
+    font-size:10vw;
+    left:0;
+}
+    
+h1 {
+    font-size:5vw;
+}
+    
+.desc {
+    font-size:1.2vw;
+    top:.5vw;
+}
+
+.food {
+    font-size:3.5vw;
+}
+
+#appetizers {
+    top:5vw;
+    margin-left:0;
+}
+
+#entrees {
+    top:5vw;
+    left:0;
+    bottom:0;
+}
+
+#deserts {
+    top:5vw;
+    left:0;
+    bottom:0;
+}
+
+h2 {
+    font-size:5vw;
+}
+
+h3 {
+    font-size:2.5vw;
+}
+    
+}
