@@ -15,4 +15,5 @@ Italian Rest. Menu:
 	This is NOT meant to be a finished website but rather, a test of my ability.
 	I wanted to learn how to work better with positioning and responsive design.
 	Unfortunately, at the time of creating this website I had no experience with JavaScript. So It's the husk of a wesbite more than anything.
+	I also experimented A LOT with the "vw" unit on this page, however I've recently discovered that "rem" is better for a responsive page.
 	
